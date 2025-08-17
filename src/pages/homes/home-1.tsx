@@ -2,8 +2,6 @@
 import { gsap } from "gsap";
 import React, { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
-import Image from "next/image";
-import Link from "next/link";
 import useScrollSmooth from '@/hooks/use-scroll-smooth';
 import { ScrollSmoother, ScrollTrigger, SplitText, cursorAnimation } from '@/plugins';
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
@@ -31,6 +29,8 @@ import { teamMarqueAnim } from "@/utils/scroll-marque";
 import { hoverBtn } from "@/utils/hover-btn";
 import { footerTwoAnimation } from "@/utils/footer-anim";
 import { bounceAnimation, charAnimation, fadeAnimation } from "@/utils/title-animation";
+import FooterTwo from "@/layouts/footers/footer-two";
+import HeaderEleven from "@/layouts/headers/header-eleven";
 
 const HomeMain = () => {
   useScrollSmooth();
@@ -83,7 +83,7 @@ const HomeMain = () => {
 
 
       {/* header area start */}
-      <HeaderOne />
+      <HeaderEleven />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -124,7 +124,7 @@ const HomeMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterOne />
+          <FooterTwo topCls="" />
           {/* footer area */}
         </div>
       </div>

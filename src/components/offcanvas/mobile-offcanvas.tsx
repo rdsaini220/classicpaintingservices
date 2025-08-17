@@ -51,7 +51,7 @@ export default function MobileOffcanvas({ openOffcanvas, setOpenOffcanvas }: IPr
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
               <h3 className="tp-offcanvas-title">Hello There!</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <p>Transforming Homes & Businesses with Quality Painting</p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus />
@@ -74,13 +74,17 @@ export default function MobileOffcanvas({ openOffcanvas, setOpenOffcanvas }: IPr
 
               <ul>
                 <li>
-                  <a href="tel:1245654">+ 4 20 7700 1007</a>
+                  <a href="tel:+61469799302">+61 469 799 302</a>
                 </li>
                 <li>
-                  <a href="mailto:classicdecoratorqld@gmail.com">classicdecoratorqld@gmail.com</a>
+                  <a href="mailto:info@classicpaintingdecorating.com.au">
+                  info@classicpaintingdecorating.com.au</a>
                 </li>
                 <li>
-                  <a href="https://maps.app.goo.gl/Sei5M28gAY1uCg7w8">30/451 Reimer St West Ende, QLD 4650</a>
+                  <a href="https://www.google.com/maps/place/Classic+Painting+And+Decorating+Services/@-37.8136885,144.963192,15z/data=!4m6!3m5!1s0x6ad642af53d5b4b7:0x4039359a232d9373!8m2!3d-37.8136885!4d144.963192!16s%2Fg%2F11c48tqxzn?entry=ttu"
+                      target="_blank"
+                    >
+                      Melbourne, VIC, Australia, Victoria</a>
                 </li>
               </ul>
             </div>
@@ -88,10 +92,10 @@ export default function MobileOffcanvas({ openOffcanvas, setOpenOffcanvas }: IPr
               <h3 className="tp-offcanvas-title sm">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="https://www.facebook.com/people/Classic-Painting-And-Decorating-services/100082995053600/?mibextid=wwXIfrhttps%3A%2F%2Fwww.instagram.com%2Fclassic_painting_services%3Figsh%3Dc2I4cjB6NWQ2cG90&rdid=7WfyYxBIb7M64HLl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXCjhTQDW%2F%3Fmibextid%3DwwXIfrhttps%253A%252F%252Fwww.instagram.com%252Fclassic_painting_services%253Figsh%253Dc2I4cjB6NWQ2cG90%26utm_source%3Dqr"><Facebook /></a>
+                  <a target="_blank" href="https://www.facebook.com/people/Classic-Painting-And-Decorating-services/100082995053600/?mibextid=wwXIfrhttps%3A%2F%2Fwww.instagram.com%2Fclassic_painting_services%3Figsh%3Dc2I4cjB6NWQ2cG90&rdid=7WfyYxBIb7M64HLl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXCjhTQDW%2F%3Fmibextid%3DwwXIfrhttps%253A%252F%252Fwww.instagram.com%252Fclassic_painting_services%253Figsh%253Dc2I4cjB6NWQ2cG90%26utm_source%3Dqr"><Facebook /></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/classic_painting_services/?igsh=c2I4cjB6NWQ2cG90"><InstagramTwo /></a>
+                  <a target="_blank" href="https://www.instagram.com/classic_painting_services/?igsh=c2I4cjB6NWQ2cG90"><InstagramTwo /></a>
                 </li>
                 {/* <li>
                     <a href="#"> <Behance /></a>

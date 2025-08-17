@@ -31,7 +31,7 @@ const HeroBannerOne = () => {
               <div className="tp-hero-title-box text-center p-relative">
                 <h1 className="tp-hero-title tp_fade_bottom">
                   <span className="p-relative">
-                    Creative
+                    Classic
                     <span className="tp-hero-subtitle d-none d-lg-block ">
                       Hello <br /> People! We’re
                     </span>
@@ -45,7 +45,7 @@ const HeroBannerOne = () => {
                     </span>
                   </span>
                   <br />
-                  Digital
+                  Painting
                   <span className="tp-hero-title-img">
                     <Image
                       className="tp-zoom-img"
@@ -56,16 +56,14 @@ const HeroBannerOne = () => {
                       style={{ height: "auto" }}
                     />
                   </span>
-                  Studio
+                  Decorating
                 </h1>
               </div>
             </div>
             <div className="tp-hero-content tp_fade_bottom">
               <p>
                 <span></span>
-                Global digital design studio partnering with brands and
-                businesses that create exceptional experiences. We are design
-                and development agency based in Netherland.
+                We provide professional painting, decorating, and renovation services to give your property a fresh, elegant, and long-lasting finish.
               </p>
             </div>
           </div>

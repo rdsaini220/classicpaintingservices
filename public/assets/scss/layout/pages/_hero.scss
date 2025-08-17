@@ -55,8 +55,8 @@
         }
         &-2{
             position: absolute;
-            top: -6px;
-            right: -80px;
+            top: -10px;
+            right: -60px;
             z-index: -1;
             & img{
                 animation: rotate2 5s linear infinite;
@@ -74,7 +74,7 @@
     }
     &-title{
         font-weight: 400;
-        font-size: 220px;
+        font-size: 150px;
         line-height: 1;
         color: var(--tp-common-black);
         font-family: var(--tp-ff-gallery);
@@ -119,8 +119,8 @@
         font-size: 20px;
         line-height: 1;
         position: absolute;
-        top: 45px;
-        left: -17%;
+        top: 24px;
+        left: -30%;
         color: var(--tp-common-black);
         font-family: var(--tp-ff-body);
         text-align: left;

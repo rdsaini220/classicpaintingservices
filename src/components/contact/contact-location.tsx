@@ -10,32 +10,12 @@ const location_data = [
   {
     id: 1,
     img: location_1,
-    country: "France",
-    time: "12:00 pm GMT+2",
-    location_title: "Base Create",
-    address: "Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton",
-    phone: "(+91) 76001726",
-    email: "Hello@contact.com",
-  },
-  {
-    id: 2,
-    img: location_2,
-    country: "Germany",
-    time: "11:00 pm GMT+2",
-    location_title: "Base Create",
-    address: "Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton",
-    phone: "(+91) 76001726",
-    email: "Hello@contact.com",
-  },
-  {
-    id: 3,
-    img: location_3,
-    country: "New Zealand",
-    time: "10:00 pm GMT+2",
-    location_title: "Base Create",
-    address: "Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton",
-    phone: "(+91) 76001726",
-    email: "Hello@contact.com",
+    country: "Australia",
+    time: "12:00pm AEST",
+    location_title: "Classic Painting Decorating",
+    address: "Melbourne, VIC, Australia, Victoria",
+    phone: "(+61) 469 799 302",
+    email: "info@classicpaintingdecorating.com.au",
   },
 ];
 
@@ -69,13 +49,13 @@ const ContactLocation = () => {
                           {item.location_title}
                         </span>
                         <a
-                          href="https://www.google.com/maps"
+                          href="https://www.google.com/maps/place/Classic+Painting+And+Decorating+Services/@-37.8136885,144.963192,15z/data=!4m6!3m5!1s0x6ad642af53d5b4b7:0x4039359a232d9373!8m2!3d-37.8136885!4d144.963192!16s%2Fg%2F11c48tqxzn?entry=ttu"
                           target="_blank"
                           dangerouslySetInnerHTML={{ __html: item.address }}
                         ></a>
                       </div>
                       <div className="cn-contact-map">
-                        <a href="#">Google Maps</a>
+                        <a href="https://www.google.com/maps/place/Classic+Painting+And+Decorating+Services/@-37.8136885,144.963192,15z/data=!4m6!3m5!1s0x6ad642af53d5b4b7:0x4039359a232d9373!8m2!3d-37.8136885!4d144.963192!16s%2Fg%2F11c48tqxzn?entry=ttu" target="_blank">Google Maps</a>
                       </div>
                     </div>
                     <div className="cn-contact-right-info text-start text-md-end">
