@@ -2098,6 +2098,9 @@
         & .tp-offcanvas-contact ul li a::after {
             background-color: var(--tp-common-white);
         }
+        & .tp-offcanvas-mode ul li .tp-mode .tp-mode-inner{
+            margin-left: 0 !important;
+        }
         & .tp-offcanvas-social ul li a {
             color: var(--tp-common-white);
             border: 1px solid rgba(255, 255, 255, 0.1);

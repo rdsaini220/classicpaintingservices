@@ -53,8 +53,8 @@ export default function FooterOne() {
                         </h4>
                         <div className="tp-footer-widget-info">
                           <div className="tp-footer-widget-info-mail tp_fade_bottom">
-                            <a href="mailto:contact@agency.com">
-                              contact@agency.com
+                            <a href="mailto:info@classicpaintingdecorating.com.au">
+                            info@classicpaintingdecorating.com.au
                             </a>
                           </div>
                           <div className="tp-footer-widget-info-location tp_fade_bottom">
@@ -75,17 +75,17 @@ export default function FooterOne() {
                         </h4>
                         <ul className="tp-footer-widget-social">
                           <li className="tp_fade_bottom">
-                            <a href="#">Facebook</a>
+                            <a href="https://www.facebook.com/people/Classic-Painting-And-Decorating-services/100082995053600/?mibextid=wwXIfrhttps%3A%2F%2Fwww.instagram.com%2Fclassic_painting_services%3Figsh%3Dc2I4cjB6NWQ2cG90&rdid=7WfyYxBIb7M64HLl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXCjhTQDW%2F%3Fmibextid%3DwwXIfrhttps%253A%252F%252Fwww.instagram.com%252Fclassic_painting_services%253Figsh%253Dc2I4cjB6NWQ2cG90%26utm_source%3Dqr" target="_blank">Facebook</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="#">Instagram</a>
+                            <a href="https://www.instagram.com/classic_painting_services/?igsh=c2I4cjB6NWQ2cG90" target="_blank">Instagram</a>
                           </li>
-                          <li className="tp_fade_bottom">
+                          {/* <li className="tp_fade_bottom">
                             <a href="#">Behance</a>
                           </li>
                           <li className="tp_fade_bottom">
                             <a href="#">Dribbble</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ export default function FooterOne() {
               <div className="col-xl-6 col-md-8">
                 <div className="tp-copyright-text text-center text-md-end">
                   <p>
-                    Copyright © {new Date().getFullYear()} Themepure. All rights
+                    Copyright © {new Date().getFullYear()} Classic Painting Decorating. All rights
                     reserved.
                   </p>
                 </div>

@@ -1,6 +1,7 @@
+'use client';
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg";
+import { Behance, CloseTwo, Dribble, Facebook, InstagramTwo, Youtube } from "../svg";
 
 // images
 import logo from "@/assets/img/logo/logo.png";
@@ -9,6 +10,7 @@ import gallery_2 from "@/assets/img/menu/offcanvas/offcanvas-2.jpg";
 import gallery_3 from "@/assets/img/menu/offcanvas/offcanvas-3.jpg";
 import gallery_4 from "@/assets/img/menu/offcanvas/offcanvas-4.jpg";
 import MobileMenus from "./mobile-menus";
+import { useTheme } from "next-themes";
 
 const gallery_images = [gallery_1, gallery_2, gallery_3, gallery_4];
 
@@ -18,7 +20,15 @@ type IProps = {
   setOpenOffcanvas: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps) {
+export default function MobileOffcanvas({ openOffcanvas, setOpenOffcanvas }: IProps) {
+  const { setTheme, theme } = useTheme();
+  const [settingOpen, setSettingOpen] = React.useState(false);
+
+  console.log('theme', theme);
+
+  function handleOpenSetting() {
+    setSettingOpen(!settingOpen);
+  };
   return (
     <>
       <div className={`tp-offcanvas-area ${openOffcanvas ? "opened" : ""}`}>
@@ -44,7 +54,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
-              <MobileMenus/>
+              <MobileMenus />
             </div>
             <div className="tp-offcanvas-gallery">
               <div className="row gx-2">
@@ -67,27 +77,53 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
                   <a href="tel:1245654">+ 4 20 7700 1007</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@diego.com">hello@diego.com</a>
+                  <a href="mailto:classicdecoratorqld@gmail.com">classicdecoratorqld@gmail.com</a>
                 </li>
                 <li>
-                  <a href="#">Avenue de Roma 158b, Lisboa</a>
+                  <a href="https://maps.app.goo.gl/Sei5M28gAY1uCg7w8">30/451 Reimer St West Ende, QLD 4650</a>
                 </li>
               </ul>
             </div>
-            <div className="tp-offcanvas-social">
+            <div className="tp-offcanvas-social tp-offcanvas-contact">
               <h3 className="tp-offcanvas-title sm">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#"><InstagramTwo /></a>
+                  <a href="https://www.facebook.com/people/Classic-Painting-And-Decorating-services/100082995053600/?mibextid=wwXIfrhttps%3A%2F%2Fwww.instagram.com%2Fclassic_painting_services%3Figsh%3Dc2I4cjB6NWQ2cG90&rdid=7WfyYxBIb7M64HLl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXCjhTQDW%2F%3Fmibextid%3DwwXIfrhttps%253A%252F%252Fwww.instagram.com%252Fclassic_painting_services%253Figsh%253Dc2I4cjB6NWQ2cG90%26utm_source%3Dqr"><Facebook /></a>
                 </li>
                 <li>
-                  <a href="#"><Dribble /></a>
+                  <a href="https://www.instagram.com/classic_painting_services/?igsh=c2I4cjB6NWQ2cG90"><InstagramTwo /></a>
                 </li>
+                {/* <li>
+                    <a href="#"> <Behance /></a>
+                  </li>
+                  <li>
+                    <a href="#"><Youtube /></a>
+                  </li> */}
+              </ul>
+            </div>
+            <div className="tp-offcanvas-contact tp-offcanvas-mode">
+              <h3 className="tp-offcanvas-title sm">Mode</h3>
+              <ul>
                 <li>
-                  <a href="#"> <Behance /></a>
-                </li>
-                <li>
-                  <a href="#"><Youtube /></a>
+                  <div className="tp-mode tp-theme-dir mb-20">
+                    <label className="tp-mode-inner tp-theme-dir-main" htmlFor="tp-dir-toggler">
+                      <span
+                        onClick={() => setTheme("dark")}
+                        className={`tp-theme-dir-rtl ${theme === "dark" ? "active" : ""}`}
+                      >
+                        Dark
+                      </span>
+                      <input type="checkbox" id="tp-dir-toggler" checked={theme === "dark"} readOnly />
+                      <i className="tp-theme-dir-slide"></i>
+                      <span
+                        onClick={() => setTheme("light")}
+                        className={`tp-theme-dir-ltr ${theme === "light" ? "active" : ""
+                          }`}
+                      >
+                        Light
+                      </span>
+                    </label>
+                  </div>
                 </li>
               </ul>
             </div>

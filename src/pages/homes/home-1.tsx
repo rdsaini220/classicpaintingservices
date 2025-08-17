@@ -130,7 +130,7 @@ const HomeMain = () => {
       </div>
 
       {/* footer shape */}
-      <div className="tp-footer-shape-wrap z-index-5 smooth">
+      {/* <div className="tp-footer-shape-wrap z-index-5 smooth">
         <Link href="/contact">
             <div className="tp-footer-shape p-relative">
                 <Image className="img-1" src={shape_1} alt="shape"/>
@@ -138,7 +138,7 @@ const HomeMain = () => {
                 <span></span>
             </div>
           </Link>
-        </div>
+        </div> */}
       {/* footer shape */}
     </Wrapper>
   );
