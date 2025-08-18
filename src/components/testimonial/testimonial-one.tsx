@@ -8,19 +8,15 @@ import { SwiperOptions } from "swiper/types";
 const testimonial_data = [
   {
     id: 1,
-    desc: `“Nulla ut enim non magna placerat scelerisque sed eu dolor. Sed eu faucibus
-    turpis. Ut bibendum tempor tempus. Ut scelerisque est
-    posuere ex pretium laoreet.”`,
-    name: "Louis Fantun",
-    designation: "Designer",
+    desc: `“Amazing Painting & Decorating did a fantastic job on our home! Their team was skilled, efficient, and paid attention to every detail. The final result exceeded our expectations, and we highly recommend their services!”`,
+    name: "Sarah Thompson",
+    designation: "Melbourne",
   },
   {
     id: 2,
-    desc: `“Nulla ut enim non magna placerat scelerisque sed eu dolor. Sed eu faucibus
-    turpis. Ut bibendum tempor tempus. Ut scelerisque est
-    posuere ex pretium laoreet.”`,
-    name: "Robert Smith",
-    designation: "Developer",
+    desc: `“We hired Amazing Painting & Decorating for our office, and they were excellent! Their expertise, professionalism, and quality work made a huge difference. The space looks fresh and modern. Highly recommended!”`,
+    name: "David Williams",
+    designation: "Melbourne",
   },
 ];
 

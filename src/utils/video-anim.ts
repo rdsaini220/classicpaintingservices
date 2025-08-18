@@ -5,7 +5,7 @@ import {ScrollTrigger} from '@/plugins';
 function videoAnimOne() {
 	if ($('.tp-hero-bottom-img-wrap').length > 0) {
 		let ms = gsap.matchMedia();
-		ms.add("(min-width: 768px)", () => {
+		ms.add("(min-width: 320px)", () => {
 			// Home 8
 			let tp_hero = gsap.timeline({
 				scrollTrigger: {

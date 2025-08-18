@@ -21,32 +21,34 @@ const imgStyle:CSSProperties = {height: "auto"};
 
 export default function GalleryOne() {
   return (
-    <div className="tp-gallery-area fix p-relative">
-      <div className="tp-gallery-shape-1">
-        <Image className="img-1" src={shape_1} alt="shape" style={imgStyle} />
-        <Image className="img-2" src={shape_d_1} alt="shape" style={imgStyle} />
-      </div>
-      <div className="tp-gallery-shape-2">
-        <Image className="img-1" src={shape_2} alt="shape" style={imgStyle} />
-        <Image className="img-2" src={shape_d_2} alt="shape" style={imgStyle} />
-      </div>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="tp-gallery-slider-wrap">
-              <div className="swiper-container tp-gallery-slider-active">
-                <Marquee className="tp-gallery-titming" speed={100} direction='left'>
+    <div className='pb-80'>
+      <div className="tp-gallery-area fix p-relative">
+        <div className="tp-gallery-shape-1">
+          <Image className="img-1" src={shape_1} alt="shape" style={imgStyle} />
+          <Image className="img-2" src={shape_d_1} alt="shape" style={imgStyle} />
+        </div>
+        <div className="tp-gallery-shape-2">
+          <Image className="img-1" src={shape_2} alt="shape" style={imgStyle} />
+          <Image className="img-2" src={shape_d_2} alt="shape" style={imgStyle} />
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="tp-gallery-slider-wrap">
+                <div className="swiper-container tp-gallery-slider-active">
+                  <Marquee className="tp-gallery-titming" speed={100} direction='left'>
 
-                  {gallery_images.map((g, i) => (
+                    {gallery_images.map((g, i) => (
 
-                    <div key={i}>
-                      <div className="tp-gallery-item mr-30">
-                        <Image src={g} alt="gallery-img" style={{ height: 'auto' }} />
+                      <div key={i}>
+                        <div className="tp-gallery-item mr-30">
+                          <Image src={g} alt="gallery-img" style={{ height: 'auto' }} />
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
 
-                </Marquee>
+                  </Marquee>
+                </div>
               </div>
             </div>
           </div>

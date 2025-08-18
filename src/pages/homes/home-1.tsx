@@ -31,6 +31,7 @@ import { footerTwoAnimation } from "@/utils/footer-anim";
 import { bounceAnimation, charAnimation, fadeAnimation } from "@/utils/title-animation";
 import FooterTwo from "@/layouts/footers/footer-two";
 import HeaderEleven from "@/layouts/headers/header-eleven";
+import GalleryOne from "@/components/gallery/gallery-one";
 
 const HomeMain = () => {
   useScrollSmooth();
@@ -99,15 +100,17 @@ const HomeMain = () => {
             {/* video area */}
 
             {/* brand area */}
-            <BrandOne />
+            {/* <BrandOne /> */}
             {/* brand area */}
 
             {/* service area */}
-            <ServiceOne />
+            <div className="tp-brand-area sm-mt-80">
+              <ServiceOne />
+            </div>
             {/* service area */}
 
-            {/* project area */}
-            <ProjectOne />
+            {/* project area */}  
+            <GalleryOne />
             {/* project area */}
 
             {/* award area */}
@@ -115,7 +118,7 @@ const HomeMain = () => {
             {/* award area */}
 
             {/* team area */}
-            <TeamOne />
+            {/* <TeamOne /> */}
             {/* team area */}
 
             {/* testimonial area */}

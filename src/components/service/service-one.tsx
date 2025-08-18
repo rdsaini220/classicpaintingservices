@@ -12,33 +12,21 @@ import s_4 from "@/assets/img/home-01/service/service-icon-4.png";
 const service_data = [
   {
     id: 1,
-    title: "VIDEO CREATION",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    title: "Residential Painting",
+    desc: "Transform your home with our expert painting and decorating services, bringing elegance and long-lasting beauty to your space.",
     icon: s_1,
   },
   {
     id: 2,
-    title: "ART DIRECTION",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
+    title: "Commercial Painting",
+    desc: "Enhance your business premises with our professional painting solutions, ensuring a lasting impression for your clients and customers.",
     icon: s_2,
-  },
-  {
-    id: 3,
-    title: "MOTION DESIGN",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
-    icon: s_3,
-  },
-  {
-    id: 4,
-    title: "BRAND STRATEGY",
-    desc: "Dolor magna eget est lorem ipsum dolor sit amet consectetur. Bibendum est ultricies integer quis auctor elit sed.",
-    icon: s_4,
-  },
+  }
 ];
 
 const ServiceOne = () => {
   return (
-    <div className="tp-service-area pt-180 pb-80 tp-btn-trigger">
+    <div className="tp-service-area pt-80 pb-80 tp-btn-trigger">
       <div className="container container-1630">
         <div className="row">
           <div className="col-xl-6 col-lg-6">
@@ -73,7 +61,7 @@ const ServiceOne = () => {
                   </div>
                   <div className="tp-service-content">
                     <h4 className="tp-service-title-sm order-0">
-                      <Link href="/service-details">{s.title}</Link>
+                      <Link href="/services">{s.title}</Link>
                     </h4>
                     <p className="order-1">{s.desc}</p>
                   </div>
