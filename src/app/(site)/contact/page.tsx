@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import ContactMain from "@/pages/contact/contact";
 
 export const metadata: Metadata = {
-  title: "Liko - Contact page",
+  title: "Classic Painting Decorating - Contact page",
 };
 
 const ContactPage = () => {

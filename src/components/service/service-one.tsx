@@ -53,7 +53,7 @@ const ServiceOne = () => {
               </h4>
             </div>
             <div className="tp-service-left-btn tp-btn-bounce">
-              <Link className="tp-btn-border" href="/service">
+              <Link className="tp-btn-border" href="/services">
                 <span className="tp-btn-border-wrap">
                   <span className="text-1">See All Services</span>
                   <span className="text-2">See All Services</span>

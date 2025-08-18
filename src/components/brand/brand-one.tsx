@@ -3,7 +3,7 @@ import BrandSlider from "./brand-slider";
 const BrandOne = () => {
   return (
     <div className="tp-brand-area">
-      <div className="container container-1630">
+      <div className="container container-1630" style={{display: 'none'}}>
         <div className="tp-brand-brd-top tp-brand-ptb">
           <div className="row align-items-center">
             <div className="col-xxl-2 col-xl-3 col-lg-3">

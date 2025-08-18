@@ -33,7 +33,7 @@ const HeroBannerOne = () => {
                   <span className="p-relative">
                     Classic
                     <span className="tp-hero-subtitle d-none d-lg-block ">
-                      Hello <br /> People! We’re
+                      Hello <br /> People! We`re
                     </span>
                     <span className="tp-hero-shape-2 d-none d-md-block">
                       <Image

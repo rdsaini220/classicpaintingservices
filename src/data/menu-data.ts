@@ -15,7 +15,7 @@ const menu_data: IMenuDT[] = [
   {
     id: 3,
     title: 'Portfolio',
-    link: '/portfolio-wrapper',
+    link: '/portfolio',
   },
   {
     id: 4,
