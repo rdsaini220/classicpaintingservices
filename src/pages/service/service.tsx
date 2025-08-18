@@ -47,7 +47,7 @@ const ServiceMain = () => {
             {/* service hero */}
 
             {/* service area */}
-            <div className="tp-service-5-area sv-service-style pb-70">
+            {/* <div className="tp-service-5-area sv-service-style pb-70">
               <div className="container container-1530">
                 <div className="row">
                   <div className="col-xl-12">
@@ -68,7 +68,7 @@ const ServiceMain = () => {
                   <ServiceItems />
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* service area */}
 
             {/* service area */}
@@ -76,17 +76,19 @@ const ServiceMain = () => {
             {/* service area */}
 
             {/* brand area */}
-            <div className="tp-brand-4-area pt-120 pb-120">
+            {/* <div className="tp-brand-4-area pt-120 pb-120">
               <div className="container">
                 <div className="row gx-0">
                   <BrandItems />
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* brand area */}
 
             {/* line image slider  */}
+            <div className="pt-120">
             <LineImgSlider />
+            </div>
             {/* line image slider  */}
 
             {/* big text */}

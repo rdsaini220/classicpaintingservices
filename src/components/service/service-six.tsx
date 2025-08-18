@@ -13,53 +13,53 @@ const service_data = [
   {
     id: 1,
     img: ser_img_1,
-    subtitle: "Design Studio",
-    title: "Logos and branding",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Service",
+    title: "Interior & Exterior Painting",
+    text: "We provide high-quality painting services for both residential and commercial properties, using premium materials for a flawless finish.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Residential & Commercial Painting",
+      "Hand Brushed Weatherboards",
+      "Staining & Varnishing",
+      "Spray Painting",
     ],
   },
   {
     id: 2,
     img: ser_img_2,
-    subtitle: "Design Studio",
-    title: "Web Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Service",
+    title: "Decorating Services",
+    text: "Elevate your interiors with expert decorating services, including custom finishes, hand-painted furniture, and detailed wall designs.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Decorative Wall Painting",
+      "Hand-Painted Furniture",
+      "Stripping & Preparation",
+      "Acrylic & Oil-Based Finishes",
     ],
   },
   {
     id: 3,
     img: ser_img_3,
-    subtitle: "Design Studio",
-    title: "Motion-Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Service",
+    title: "Home & Commercial Renovation",
+    text: "Transform your space with high-quality renovation solutions, from wall refinishing to full interior makeovers.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Surface Preparation & Restoration",
+      "Heritage Painting & Refinishing",
+      "Fence & Decking Painting",
+      "Shopfront & Business Upgrades",
     ],
   },
   {
     id: 4,
     img: ser_img_4,
-    subtitle: "Design Studio",
-    title: "Web Analytics",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Service",
+    title: "Wallpaper Installation",
+    text: "Enhance your walls with premium wallpaper solutions, from modern patterns to classic textures.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Professional Wallpaper Hanging",
+      "Stripping & Removal",
+      "Custom Design & Accent Walls",
+      "Durable & Stylish Finishes",
     ],
   },
 ];
@@ -100,18 +100,6 @@ export default function ServiceSix() {
                             <li key={i}>{list}</li>
                           ))}
                         </ul>
-                      </div>
-                      <div className="sv-service-btn">
-                        <Link
-                          className="tp-btn-zikzak zikzak-inner p-relative"
-                          href="/service-details"
-                        >
-                          <span className="zikzak-content">
-                            See <br /> Details
-                            <RightArrow clr="currentColor" />
-                          </span>
-                          <ShapeTwo />
-                        </Link>
                       </div>
                     </div>
                   </div>

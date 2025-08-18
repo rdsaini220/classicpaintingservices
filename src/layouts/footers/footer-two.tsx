@@ -20,7 +20,7 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
       >
         <div className="container container-1480">
           <div className="row">
-            <div className="col-xl-3 col-lg-4 col-md-6 mb-50">
+            <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-1">
                 {!whiteFooter && (
                   <div className="tp-footer-2-widget-logo">
@@ -41,26 +41,29 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
                 )}
                 <div className="tp-footer-2-widget-text">
                   <p>
-                    Providing top-quality painting, decorating, and renovation services with a commitment to excellence and customer satisfaction.
+                    Providing top-quality painting, decorating, <br/>
+                    and renovation services with a commitment to <br/> excellence and customer satisfaction.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-3 col-md-6 mb-50">
+            <div className="col-xl-4 col-lg-3 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-2">
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Sitemap</h4>
-                  <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/services">Services</Link></li>
-                    <li><Link href="/portfolio">Portfolio</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
-                  </ul>
+                  <div className="tp-footer-3-menu">
+                      <ul>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/services">Services</Link></li>
+                        <li><Link href="/portfolio-wrapper">Portfolio</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
+                      </ul>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-5 col-md-6 mb-50">
+            <div className="col-xl-4 col-lg-5 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-3">
                 <h4 className="tp-footer-2-widget-title">Office</h4>
                 <div className="tp-footer-2-contact-item">
@@ -86,7 +89,7 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-5 col-md-6 mb-50">
+            {/* <div className="col-xl-4 col-lg-5 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-4">
                 <div className="tp-footer-2-widget-newslatter">
                   <h4 className="tp-footer-2-widget-title">
@@ -102,7 +105,7 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

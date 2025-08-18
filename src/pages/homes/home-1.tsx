@@ -104,7 +104,7 @@ const HomeMain = () => {
             {/* brand area */}
 
             {/* service area */}
-            <div className="tp-brand-area sm-mt-80">
+            <div className="tp-brand-area sm-mt-120">
               <ServiceOne />
             </div>
             {/* service area */}

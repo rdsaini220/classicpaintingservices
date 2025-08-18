@@ -16,26 +16,12 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Website map</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Landing</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/about">About</Link></li>
+                      <li><Link href="/portfolio">Portfolio</Link></li>
+                      <li><Link href="/blog">Blog</Link></li>
+                      <li><Link href="/contact">Contact</Link></li>
                     </ul>
-                  </div>
-                </div>
-                <div className="tp-footer-3-widget">
-                  <h4 className="tp-footer-3-title">Newsletter</h4>
-                  <div className="tp-footer-3-input-box d-flex align-items-center">
-                    <input type="text" placeholder="Enter Address..." />
-                    <button className="tp-footer-3-btn p-relative">
-                      <span className="icon-1">
-                        <RightArrow clr='#19191A' />
-                      </span>
-                      <span className="icon-2">
-                        <SvgBgSm/>
-                      </span>
-                    </button>
                   </div>
                 </div>
               </div>
@@ -43,15 +29,16 @@ export default function FooterFour() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-60">
               <div className="tp-footer-3-widget text-md-center footer-col-3-2">
                 <div className="tp-footer-3-logo-box">
-                  <p className="mb-100">
-                    Drop us a line sed id semper <br />
-                    risus in hend rerit.
+                  <div className="tp-copyright-logo p-relative">
+                    <Link href="/">
+                      <Image src={logo} alt="logo" />
+                    </Link>
+                  </div>
+                  <p className="mb-50 font-normal text-16">
+                    Providing top-quality painting, decorating, and renovation services with a commitment to excellence and customer satisfaction.
                   </p>
-                  <Link className="tp-footer-3-logo p-relative" href="/">
-                    <Image src={logo} alt="logo" />
-                  </Link>
-                  <p className="tp-footer-3-copyright">
-                    {new Date().getFullYear()} Themepure <br /> © All rights reserved
+                  <p className="tp-footer-3-copyright text-12">
+                    {new Date().getFullYear()} CPD © All rights reserved
                   </p>
                 </div>
               </div>
@@ -62,22 +49,31 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Contact</h4>
                   <div className="tp-footer-2-contact-item">
                     <span>
-                      <a href="https://www.google.com/maps/@23.8223596,90.3656686,15z?entry=ttu"
-                      target="_blank">740 NEW SOUTH HEAD RD, TRIPLE BAY SWFW 3108, NEW YORK</a>
-                      </span>
+                    <a
+                      href="https://www.google.com/maps/place/Classic+Painting+And+Decorating+Services/@-37.8136885,144.963192,15z/data=!4m6!3m5!1s0x6ad642af53d5b4b7:0x4039359a232d9373!8m2!3d-37.8136885!4d144.963192!16s%2Fg%2F11c48tqxzn?entry=ttu"
+                      target="_blank"
+                    >
+                      Melbourne, VIC, Australia, Victoria
+                    </a>
+                    </span>
                   </div>
                   <div className="tp-footer-2-contact-item">
-                    <span>P: <a href="tel:+725214456">+ 725 214 456</a></span>
-                    <span>E: <a href="mailto:contact@liko.com">contact@liko.com</a></span>
+                    <span>P:<a href="tel:+61469799302">+61 469 799 302</a></span>
+                    <span>E:<a href="mailto:info@classicpaintingdecorating.com.au">
+                    info@classicpaintingdecorating.com.au</a></span>
                   </div>
                 </div>
                 <div className="tp-footer-3-widget">
-                  <h4 className="tp-footer-3-title">Follow</h4>
+                  {/* <h4 className="tp-footer-3-title">Follow</h4> */}
                   <div className="tp-footer-3-social">
-                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a
+                      href="https://www.facebook.com/people/Classic-Painting-And-Decorating-services/100082995053600/?mibextid=wwXIfrhttps%3A%2F%2Fwww.instagram.com%2Fclassic_painting_services%3Figsh%3Dc2I4cjB6NWQ2cG90&rdid=7WfyYxBIb7M64HLl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZXCjhTQDW%2F%3Fmibextid%3DwwXIfrhttps%253A%252F%252Fwww.instagram.com%252Fclassic_painting_services%253Figsh%253Dc2I4cjB6NWQ2cG90%26utm_source%3Dqr" 
+                      target="_blank"
+                    ><i className="fa-brands fa-facebook-f"></i></a>
+                    <a
+                      href="https://www.instagram.com/classic_painting_services/"
+                      target="_blank"
+                    ><i className="fa-brands fa-instagram"></i></a>
                   </div>
                 </div>
               </div>

@@ -12,16 +12,28 @@ import s_4 from "@/assets/img/home-01/service/service-icon-4.png";
 const service_data = [
   {
     id: 1,
-    title: "Residential Painting",
-    desc: "Transform your home with our expert painting and decorating services, bringing elegance and long-lasting beauty to your space.",
+    title: "Interior & Exterior Painting",
+    desc: "We provide high-quality painting services for both residential and commercial properties, using premium materials for a flawless finish.",
     icon: s_1,
   },
   {
     id: 2,
-    title: "Commercial Painting",
-    desc: "Enhance your business premises with our professional painting solutions, ensuring a lasting impression for your clients and customers.",
+    title: "Decorating Services",
+    desc: "Elevate your interiors with expert decorating services, including custom finishes, hand-painted furniture, and detailed wall designs.",
     icon: s_2,
-  }
+  },
+  {
+    id: 3,
+    title: "Home & Commercial Renovation",
+    desc: "Transform your space with high-quality renovation solutions, from wall refinishing to full interior makeovers.",
+    icon: s_3,
+  },
+  {
+    id: 4,
+    title: "Wallpaper Installation",
+    desc: "Enhance your walls with premium wallpaper solutions, from modern patterns to classic textures.",
+    icon: s_4,
+  },
 ];
 
 const ServiceOne = () => {
