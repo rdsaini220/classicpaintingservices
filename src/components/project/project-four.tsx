@@ -112,12 +112,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <h4 className="tp-project-3-title-sm">
                         <Link href="/portfolio-details-1">{item.title}</Link>
                       </h4>
-                      <Link
-                        className="tp-btn-project-sm"
-                        href="/portfolio-details-1"
-                      >
-                        See Project
-                      </Link>
+                      
                     </div>
                     <div className="tp-project-3-border color-1 text-center">
                       <span></span>
