@@ -4,16 +4,17 @@ import { ScrollDown } from "../svg";
 
 export default function AboutUsHero() {
   const scrollTo = () => {
-    scroller.scrollTo('about-info', {
+    scroller.scrollTo("about-info", {
       duration: 800,
       delay: 0,
-      smooth: 'easeInOutQuart',
+      smooth: "easeInOutQuart",
     });
   };
+
   return (
     <div
       className="ab-inner-hero-area ab-inner-hero-bg p-relative"
-      style={{backgroundImage: "url(/assets/img/inner-about/hero/hero-1.jpg)"}}
+      style={{ backgroundImage: "url(/assets/img/inner-about/hero/hero-1.jpg)" }}
     >
       <div className="breadcurmb-site d-none">
         <h6>About Us</h6>
@@ -35,12 +36,15 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <span className="ab-inner-hero-subtitle">
-                Digital <br /> creative agency
+                Classic <br /> Painting & Decorating Services
               </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
-                Building Digital Presence
+                  Homes & Workspaces
               </h1>
-              <p>Digital experiences with maximum emotional impact</p>
+              <p>
+                Professional painting and decorating solutions that bring beauty,
+                durability, and elegance to every project.
+              </p>
             </div>
           </div>
         </div>
@@ -52,10 +56,14 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <p>
-                Liko develops, designs & delivers websites & creative campaigns
-                that drive results,
+                At Classic Painting & Decorating Services, we specialise in
+                residential, commercial, and decorative finishes. With years of
+                experience, we deliver high-quality craftsmanship and attention
+                to detail that exceeds expectations.
               </p>
-               <a className="tp-btn-white-sm border-style" href="#">Our Story</a>
+              <a className="tp-btn-white-sm border-style" href="#">
+                Our Story
+              </a>
             </div>
           </div>
         </div>

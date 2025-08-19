@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
-// images
+// images (these can be replaced with Dulux, Taubmans, Wattyl, Haymes, etc. logos you use)
 import b_1 from "@/assets/img/inner-about/brand/brand-1.png";
 import b_2 from "@/assets/img/inner-about/brand/brand-2.png";
 import b_3 from "@/assets/img/inner-about/brand/brand-3.png";
@@ -23,24 +23,24 @@ export default function BrandFive() {
       }}
     >
       <div className="container">
+        {/* Section Title */}
         <div className="row">
           <div className="col-xl-12">
-            <div className="ab-brand-title-box mb-100">
-              <h4 className="ab-brand-title">Our clients</h4>
+            <div className="ab-brand-title-box mb-100 text-center">
+              <h4 className="ab-brand-title">Trusted By Leading Brands</h4>
             </div>
           </div>
         </div>
+
+        {/* Brand Logos Scroller */}
         <div className="row">
           <div className="col-xl-12">
             <div className="ab-brand-wrapper mb-80">
               <div className="swiper-container ab-brand-slide-active">
-                <Marquee speed={100} loop={0} className="ab-brand-slide-wrap">
+                <Marquee speed={60} loop={0} className="ab-brand-slide-wrap" gradient={false}>
                   {brand_images.map((b, i) => (
-                    <div
-                      key={i}
-                      className="ab-brand-item"
-                    >
-                      <Image src={b} alt="brand" />
+                    <div key={i} className="ab-brand-item mx-10">
+                      <Image src={b} alt="brand-logo" />
                     </div>
                   ))}
                 </Marquee>
@@ -48,15 +48,18 @@ export default function BrandFive() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-xl-7 col-lg-9">
-            <div className="ab-brand-content tp_title_anim">
+
+        {/* Brand / Client Content */}
+        <div className="row justify-content-center">
+          <div className="col-xl-8 col-lg-9">
+            <div className="ab-brand-content tp_title_anim text-center">
               <p>
-                We belive in creating partnerships based on honesty and true
-                connection. That is why some of the biggest companies stayed with
-                us for years.
+                At <b>Classic Painting & Decorating Services</b>, we use only 
+                trusted paint brands and quality materials to ensure long-lasting, 
+                flawless finishes. Our commitment to excellence has helped us build 
+                strong relationships with homeowners, builders, and businesses across Melbourne.
               </p>
-              <span>More about us</span>
+              <span className="fw-bold">Quality You Can Rely On</span>
             </div>
           </div>
         </div>

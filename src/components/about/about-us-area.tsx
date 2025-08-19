@@ -4,14 +4,14 @@ import { Hand } from "../svg";
 
 // images
 import shape from "@/assets/img/inner-about/about/shape-1.png";
-import ab_1 from "@/assets/img/inner-about/about/about-1.jpg";
-import ab_2 from "@/assets/img/inner-about/about/about-3.jpg";
-import ab_3 from "@/assets/img/inner-about/about/about-2.jpg";
-
+import ab_1 from "@/assets/img/inner-about/about/about-1.jpeg";
+import ab_2 from "@/assets/img/inner-about/about/about-2.jpeg";
+ 
 export default function AboutUsArea() {
   return (
     <div className="ab-about-area ab-about-mt pb-90 z-index-5">
       <div className="container container-1480">
+        {/* Images */}
         <div className="ab-about-thumb-wrap mb-180">
           <div className="row align-items-end">
             <div className="col-xl-6 col-lg-6 col-md-6">
@@ -33,16 +33,18 @@ export default function AboutUsArea() {
                   alt="about-img"
                   style={{ height: "auto" }}
                 />
-                <Image
+                {/* <Image
                   data-speed="0.9"
                   src={ab_3}
                   alt="about-img"
                   style={{ height: "auto" }}
-                />
+                /> */}
               </div>
             </div>
           </div>
         </div>
+
+        {/* About Info */}
         <div id="about-info" className="row">
           <div className="col-xxl-9">
             <div className="ab-about-content p-relative">
@@ -51,22 +53,25 @@ export default function AboutUsArea() {
                 Hi!
               </span>
               <p className="tp-dropcap tp_fade_bottom">
-                We are a creative studio that specializes in providing
-                high-quality design and branding solutions to businesses and
-                individuals. Our team is composed of talented designers,
-                developers, and marketers.!
+                At <b>Classic Painting & Decorating Services</b>, we take pride
+                in delivering high-quality painting, decorating, and renovation
+                solutions across Melbourne. With years of experience, our team
+                transforms homes, offices, and commercial spaces with precision,
+                creativity, and attention to detail.
               </p>
             </div>
           </div>
         </div>
+
+        {/* Services Section */}
         <div className="row">
           <div className="col-xl-9">
             <div className="row">
               <div className="col-xl-5 col-lg-5 col-md-4 mb-40">
                 <div className="ab-about-category-title-box p-relative">
                   <h4 className="ab-about-category-title">
-                    Something <br />
-                    <span>WHAT I DO</span>
+                    Our <br />
+                    <span>Services</span>
                   </h4>
                   <Image
                     className="ab-about-shape-1 d-none d-md-block"
@@ -75,31 +80,35 @@ export default function AboutUsArea() {
                   />
                 </div>
               </div>
+
+              {/* Services List */}
               <div className="col-xl-7 col-lg-7 col-md-8">
                 <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-6 mb-40">
                     <div className="ab-about-category-list category-space-1 tp_fade_bottom">
                       <ul>
-                        <li>Art direction</li>
-                        <li>Branding</li>
-                        <li>Content Production</li>
-                        <li>User Interface Design</li>
-                        <li>Animation</li>
+                        <li>Interior & Exterior Painting</li>
+                        <li>Residential & Commercial Projects</li>
+                        <li>Staining & Varnishing</li>
+                        <li>Decorative Finishes</li>
+                        <li>Wallpaper Installation</li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 mb-40">
                     <div className="ab-about-category-list category-space-2 tp_fade_bottom">
                       <ul>
-                        <li>Brand Identity</li>
-                        <li>User Interface</li>
-                        <li>User Experience</li>
-                        <li>Responsive Design</li>
+                        <li>Surface Preparation & Restoration</li>
+                        <li>Heritage & Specialty Painting</li>
+                        <li>Fence & Deck Painting</li>
+                        <li>Shopfront & Business Renovations</li>
+                        <li>Custom Accent Walls & Designs</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
+              {/* End Services List */}
             </div>
           </div>
         </div>

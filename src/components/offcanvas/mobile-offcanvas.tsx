@@ -58,15 +58,7 @@ export default function MobileOffcanvas({ openOffcanvas, setOpenOffcanvas }: IPr
             </div>
             <div className="tp-offcanvas-gallery">
               <div className="row gx-2">
-                {gallery_images.map((item, i) => (
-                  <div className="col-md-3 col-3" key={i}>
-                    <div className="tp-offcanvas-gallery-img fix">
-                      <a href="#">
-                        <Image src={item} alt="gallery-img" />
-                      </a>
-                    </div>
-                  </div>
-                ))}
+               
               </div>
             </div>
             <div className="tp-offcanvas-contact">

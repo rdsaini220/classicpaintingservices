@@ -47,10 +47,17 @@ const ContactMain = () => {
                   <div className="row">
                     <div className="col-xl-12">
                       <div className="tm-hero-content">
-                        <span className="tm-hero-subtitle">Liko Studio</span>
+                        <span className="tm-hero-subtitle">
+                          Classic Painting & Decorating Services
+                        </span>
                         <h4 className="tm-hero-title-big tp-char-animation">
-                          Get in touch
+                          Get in Touch With Us
                         </h4>
+                        <p className="mt-3 text-white">
+                          Have a painting, decorating, or renovation project in
+                          mind? Reach out today and let’s transform your space
+                          with a fresh, elegant, and long-lasting finish.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -59,11 +66,11 @@ const ContactMain = () => {
               {/* hero area end */}
 
               {/* contact area */}
-              <ContactTwo/>
+              <ContactTwo />
               {/* contact area */}
 
               {/* contact location */}
-              <ContactLocation/>
+              <ContactLocation />
               {/* contact location */}
             </main>
 

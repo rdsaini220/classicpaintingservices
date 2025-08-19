@@ -18,7 +18,7 @@ const counter_data = [
   {
     id: 3,
     title: "TEAM MEMBERS",
-    count: 9,
+    count: 100,
     text: "+",
   },
   {

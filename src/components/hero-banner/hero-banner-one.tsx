@@ -60,13 +60,17 @@ const HeroBannerOne = () => {
                 </h1>
               </div>
             </div>
-            <div className="tp-hero-content tp_fade_bottom">
-              <p>
-                <span></span>
-                We provide professional painting, decorating, and renovation services to give your property a fresh, elegant, and long-lasting finish.
-              </p>
-            </div>
-          </div>
+            <div className="tp-hero-content tp_fade_bottom text-center">
+  <p>
+    <span></span>
+    At Classic Painting & Decorating Services, we provide professional painting, 
+    decorating, and renovation solutions across Melbourne. With expert craftsmanship 
+    and attention to detail, we help transform homes and businesses with finishes 
+    that are elegant, durable, and long-lasting.
+  </p>
+</div>
+</div>
+
         </div>
         <div className="row">
           <div className="col-xl-12"></div>

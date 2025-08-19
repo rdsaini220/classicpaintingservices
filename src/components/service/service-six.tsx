@@ -15,12 +15,12 @@ const service_data = [
     img: ser_img_1,
     subtitle: "Service",
     title: "Interior & Exterior Painting",
-    text: "We provide high-quality painting services for both residential and commercial properties, using premium materials for a flawless finish.",
+    text: "Enhance the beauty and durability of your property with our professional interior and exterior painting services. We use premium paints and techniques to deliver a flawless, long-lasting finish for both homes and businesses.",
     lists: [
       "Residential & Commercial Painting",
-      "Hand Brushed Weatherboards",
-      "Staining & Varnishing",
-      "Spray Painting",
+      "Hand-Brushed Weatherboards",
+      "Timber Staining & Varnishing",
+      "Professional Spray Painting",
     ],
   },
   {
@@ -28,11 +28,11 @@ const service_data = [
     img: ser_img_2,
     subtitle: "Service",
     title: "Decorating Services",
-    text: "Elevate your interiors with expert decorating services, including custom finishes, hand-painted furniture, and detailed wall designs.",
+    text: "Bring your interiors to life with our expert decorating services. From elegant wall finishes to custom-painted furniture, we create stylish spaces tailored to your taste and lifestyle.",
     lists: [
-      "Decorative Wall Painting",
-      "Hand-Painted Furniture",
-      "Stripping & Preparation",
+      "Feature & Decorative Wall Painting",
+      "Custom Hand-Painted Furniture",
+      "Surface Stripping & Preparation",
       "Acrylic & Oil-Based Finishes",
     ],
   },
@@ -40,13 +40,13 @@ const service_data = [
     id: 3,
     img: ser_img_3,
     subtitle: "Service",
-    title: "Home & Commercial Renovation",
-    text: "Transform your space with high-quality renovation solutions, from wall refinishing to full interior makeovers.",
+    title: "Home & Commercial Renovations",
+    text: "Transform your property with our renovation solutions. Whether refreshing interiors or upgrading commercial spaces, we focus on detail, quality, and lasting results.",
     lists: [
       "Surface Preparation & Restoration",
       "Heritage Painting & Refinishing",
-      "Fence & Decking Painting",
-      "Shopfront & Business Upgrades",
+      "Fence & Deck Painting",
+      "Shopfront & Business Makeovers",
     ],
   },
   {
@@ -54,15 +54,16 @@ const service_data = [
     img: ser_img_4,
     subtitle: "Service",
     title: "Wallpaper Installation",
-    text: "Enhance your walls with premium wallpaper solutions, from modern patterns to classic textures.",
+    text: "Add character and style to your walls with our professional wallpaper installation services. We offer modern designs, classic patterns, and custom solutions for a polished finish.",
     lists: [
-      "Professional Wallpaper Hanging",
-      "Stripping & Removal",
-      "Custom Design & Accent Walls",
+      "Expert Wallpaper Hanging",
+      "Stripping & Safe Removal",
+      "Custom Accent Wall Designs",
       "Durable & Stylish Finishes",
     ],
   },
 ];
+
 
 export default function ServiceSix() {
   return (

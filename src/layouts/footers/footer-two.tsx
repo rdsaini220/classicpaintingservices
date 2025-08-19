@@ -39,12 +39,12 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
                     </Link>
                   </div>
                 )}
-                <div className="tp-footer-2-widget-text">
-                  <p>
-                    Providing top-quality painting, decorating, <br/>
-                    and renovation services with a commitment to <br/> excellence and customer satisfaction.
-                  </p>
-                </div>
+               <div className="tp-footer-2-widget-text">
+  <p>
+    Delivering high-quality painting, decorating, and renovation services with a strong focus on excellence and customer satisfaction.
+  </p>
+</div>
+
               </div>
             </div>
             <div className="col-xl-4 col-lg-3 col-md-6 mb-50">
