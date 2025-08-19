@@ -6,19 +6,33 @@ import { Navigation } from "swiper/modules";
 import { SwiperOptions } from "swiper/types";
 
 const testimonial_data = [
+  
   {
-    id: 1,
-    desc: `“Amazing Painting & Decorating did a fantastic job on our home! Their team was skilled, efficient, and paid attention to every detail. The final result exceeded our expectations, and we highly recommend their services!”`,
-    name: "Sarah Thompson",
+    id: 3,
+    desc: `“Fantastic work! From the very first consultation to the final touches, everything was handled with great professionalism. Our living room now feels brighter and more welcoming. Thank you for a wonderful job!”`,
+    name: "Emily Johnson",
     designation: "Melbourne",
   },
   {
-    id: 2,
-    desc: `“We hired Amazing Painting & Decorating for our office, and they were excellent! Their expertise, professionalism, and quality work made a huge difference. The space looks fresh and modern. Highly recommended!”`,
-    name: "David Williams",
+    id: 4,
+    desc: `“We couldn’t be more impressed! The painters were punctual, friendly, and extremely thorough. They took care of every detail and left our house looking fresh and beautiful. We will definitely hire them again.”`,
+    name: "Michael Brown",
+    designation: "Melbourne",
+  },
+  {
+    id: 5,
+    desc: `“Excellent service and top-quality finish! The team was knowledgeable and gave us helpful suggestions on colours. Our home now looks stunning and we’ve received so many compliments. Highly recommended!”`,
+    name: "Olivia Smith",
+    designation: "Melbourne",
+  },
+  {
+    id: 6,
+    desc: `“Amazing Painting & Decorating exceeded our expectations. They worked with great care, finished on time, and the end result is simply perfect. The whole process was stress-free and professional.”`,
+    name: "James Anderson",
     designation: "Melbourne",
   },
 ];
+
 
 const slider_setting: SwiperOptions = {
   slidesPerView: 1,
