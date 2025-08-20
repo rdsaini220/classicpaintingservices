@@ -15,7 +15,6 @@ import ServiceSix from "@/components/service/service-six";
 import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
-import { Leaf } from "@/components/svg";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
@@ -86,7 +85,7 @@ const ServiceMain = () => {
             {/* brand area */}
 
             {/* line image slider  */}
-            <div className="pt-120">
+            <div className="p-relative tp-brand-4-area pt-120">
             <LineImgSlider />
             </div>
             {/* line image slider  */}

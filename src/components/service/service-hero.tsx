@@ -21,7 +21,7 @@ export default function ServiceHero() {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-xl-12">
             <div className="sv-hero-thumb p-relative">
               <div className="sv-hero-thumb-box">
@@ -34,7 +34,7 @@ export default function ServiceHero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
