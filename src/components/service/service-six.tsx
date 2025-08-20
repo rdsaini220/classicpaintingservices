@@ -6,9 +6,10 @@ import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
 import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
+import ser_img_5 from "@/assets/img/inner-service/service/service-5.jpg";
+
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
-
 const service_data = [
   {
     id: 1,
@@ -62,7 +63,21 @@ const service_data = [
       "Durable & Stylish Finishes",
     ],
   },
+  {
+    id: 5,
+    img: ser_img_5, // add a new image variable for commercial painting
+    subtitle: "Service",
+    title: "Commercial Painting",
+    text: "Professional commercial painting services tailored for offices, retail spaces, and industrial properties. We deliver high-quality finishes that enhance your business environment and brand image.",
+    lists: [
+      "Office & Retail Painting",
+      "Industrial & Warehouse Coatings",
+      "Exterior & Interior Commercial Painting",
+      "Durable, Long-Lasting Finishes",
+    ],
+  },
 ];
+
 
 
 export default function ServiceSix() {

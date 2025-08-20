@@ -27,7 +27,7 @@ const testimonial_data = [
   },
   {
     id: 6,
-    desc: `“Amazing Painting & Decorating exceeded our expectations. They worked with great care, finished on time, and the end result is simply perfect. The whole process was stress-free and professional.”`,
+    desc: `Classic Painting & Decorating exceeded our expectations. They worked with great care, finished on time, and the end result is simply perfect. The whole process was stress-free and professional.”`,
     name: "James Anderson",
     designation: "Melbourne",
   },
